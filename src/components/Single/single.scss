@@ -1,0 +1,39 @@
+@import 'src/styles/vars';
+
+#single {
+  padding: 0 3em;
+  line-height: 1.6;
+  text-align: center;
+  &-title {
+    text-transform: uppercase;
+    color: $black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+  }
+  &-category {
+    background-color: $active-color;
+    padding: .5em .8em;
+    font-size: .6em;
+    color: $white;
+    display: inline-block;
+    margin: .5em 0;
+  }
+
+  &-excerpt {
+    color: $content-color;
+    font-weight: 300;
+    background-color: $almost-white;
+    padding: 1em;
+    margin: 1em;
+  }
+
+  &-content {
+    text-align: left;
+    color: $content-color;
+    font-size: 1.3em;
+    &::first-letter {
+      color: grey;
+      font-size: 2em;
+    }
+  }
+}

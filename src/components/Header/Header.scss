@@ -1,0 +1,18 @@
+@import 'src/styles/vars';
+.nav {
+  text-align: center;
+  padding: 4em 2em;
+
+  &-link {
+    text-decoration: underline;
+    margin: 0 1em;
+    display: inline-block;
+    color: $dark-color;
+    &:hover, &.active {
+      color: $active-color;
+    }
+    &.active {
+      text-decoration: none;
+    }
+  }
+}
