@@ -9,7 +9,6 @@ Première utilisation
 Récupérez une copie du modèle :
 
 ```sh
-git clone git@github.com:O-clock-Nova/React-modele.git
 
 cd React-modele
 
